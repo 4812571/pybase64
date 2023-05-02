@@ -3,4 +3,4 @@ target: encode-decode
 duration: 600
 cmds:
     - cmd: /src/mayhem/fuzz_encode-decode.py
-      libfuzzer
+      libfuzzer: true
